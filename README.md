@@ -11,7 +11,7 @@ Overview
   - `test_sentence.py` — build sentences from predictions and publish via MQTT.
   - `speak.py` — MQTT subscriber to speak received sentences (uses espeak).
 
-Files (short)
+Files
 - data.py: capture script using OpenCV + MediaPipe. Saves 63‑dim vectors (21 landmarks × 3).
 - train.py: builds/trains a small MLP (input shape (63,)) and saves model + label file.
 - test.py: realtime single‑letter prediction display.
